@@ -8,6 +8,7 @@ import { ShoppingCart, Heart } from "lucide-react"
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 
+
 const products = [
   {
     id: 1,
@@ -217,7 +218,7 @@ export default function ProductCarousel() {
       emblaApi.off('select', onSelect)
       emblaApi.off('reInit', onSelect)
     }
-  }, [emblaApi])
+  }, [emblaApi,onSelect])
 
   const toggleFavorite = (productId) => {
     setFavorites((prev) =>
