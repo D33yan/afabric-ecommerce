@@ -102,7 +102,7 @@ export default function HeroSection() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 0.7, ease: "easeOut" }}
         >
-          Let's Show you why we are different
+          <p>Let's Show you why we are different</p>
         </motion.p>
         <motion.div
           initial={{ scale: 0.5, opacity: 0 }}
