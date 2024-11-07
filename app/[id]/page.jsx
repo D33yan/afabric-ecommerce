@@ -1,3 +1,4 @@
+ 'use client'
 import { useState } from 'react'
 import { ShoppingCart, Heart, Share2, ChevronDown, Menu } from 'lucide-react'
 import { Button } from '@/components/ui/button'
